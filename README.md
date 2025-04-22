@@ -7,13 +7,13 @@ In Julia:
 instantiate
 ```
 
-In Bash: (can use `;` to do it from Julia REPL):
+In Bash (can use `;` to do it from Julia REPL), submit job with:
 
 ```
-./run.sh
+sbatch run.sh
 ```
 
-which invokes `test.jl` on 50 processes. 
+which submits 50 jobs to the SLURM queue, each invoking `test.jl`. 
 
 Monitor results with:
 
