@@ -13,7 +13,7 @@ In Bash (can use `;` to do it from Julia REPL), submit job with:
 sbatch run.sh
 ```
 
-which submits 50 jobs to the SLURM queue, each invoking `test.jl`. 
+which submits several jobs to the SLURM queue, each invoking `test.jl`. 
 
 Monitor results with:
 
