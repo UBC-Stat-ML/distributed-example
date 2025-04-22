@@ -7,4 +7,5 @@
 
 srun hostname -s > hostfile
 sleep 5
+
 julia --banner=no --compiled-modules=existing --project=@. --machine-file ./hostfile test.jl 

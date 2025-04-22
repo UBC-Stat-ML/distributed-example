@@ -22,3 +22,5 @@ cat slurm-current.txt
 ``` 
 
 This should show the list of hosts used in parallel. 
+
+Note: this is not compatible with [zip_depot](https://github.com/UBC-Stat-ML/zip_depot).
