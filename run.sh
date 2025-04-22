@@ -2,7 +2,7 @@
 #SBATCH --ntasks=50
 #SBATCH --cpus-per-task=1
 #SBATCH --mem-per-cpu=1024M
-#SBATCH --time=0-01:30
+#SBATCH --time=0-00:05
 #SBATCH --output=slurm-current.txt
 
 srun hostname -s > hostfile
